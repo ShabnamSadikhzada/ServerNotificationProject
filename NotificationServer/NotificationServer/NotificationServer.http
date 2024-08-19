@@ -1,0 +1,14 @@
+@NotificationServer_HostAddress = http://localhost:5269
+
+POST {{NotificationServer_HostAddress}}/api/Emails
+Content-Type: application/json
+
+{
+  "to": "nihadhaciyev625@gmail.com",
+  "from": "shabnamjs@code.edu.az",
+  "bcc": "nazrinamai@code.edu.az",
+  "cc": "shabnam.sadikhzada@gmail.com",
+  "subject": "<3",
+  "body": "saammeykiimm",
+  "attachments": []
+}
