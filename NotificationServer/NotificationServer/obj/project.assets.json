@@ -716,11 +716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shabnamjs\\source\\repos\\NotificationServer\\NotificationServer\\NotificationServer.csproj",
+      "projectUniqueName": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\NotificationServer.csproj",
       "projectName": "NotificationServer",
-      "projectPath": "C:\\Users\\shabnamjs\\source\\repos\\NotificationServer\\NotificationServer\\NotificationServer.csproj",
+      "projectPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\NotificationServer.csproj",
       "packagesPath": "C:\\Users\\shabnamjs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shabnamjs\\source\\repos\\NotificationServer\\NotificationServer\\obj\\",
+      "outputPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -30,7 +30,7 @@ public class MailService : IMailService
         
         if(!string.IsNullOrEmpty(email.Bcc))
         {
-            emailMessage.Bcc.Add(new MailboxAddress("Humbatov Bcc", email.Bcc));
+            emailMessage.Bcc.Add(new MailboxAddress("Haciyev Bcc", email.Bcc));
         }
 
         emailMessage.Subject = email.Subject;
