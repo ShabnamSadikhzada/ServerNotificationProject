@@ -6,8 +6,8 @@ Content-Type: application/json
 {
   "to": "nihadhaciyev625@gmail.com",
   "from": "shabnamjs@code.edu.az",
-  "bcc": "nazrinamai@code.edu.az",
-  "cc": "shabnam.sadikhzada@gmail.com",
+  "bcc": "shabnam.sadikhzada@gmail.com",
+  "cc": "nazrinamai@code.edu.az",
   "subject": "<3",
   "body": "saammeykiimm",
   "attachments": []

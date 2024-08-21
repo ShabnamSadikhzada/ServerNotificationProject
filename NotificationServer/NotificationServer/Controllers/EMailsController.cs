@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using NotificationServer.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using NotificationServer.Services;
+using Shared.Dtos.Emails;
 
 namespace NotificationServer.Controllers;
 
@@ -16,7 +15,7 @@ public class EMailsController : ControllerBase
         _mailService = mailService;
     }
     [HttpPost]
-    public async Task<IActionResult> SendMail([FromBody] EmailBody request)
+    public async Task<IActionResult> SendMail([FromBody] EmailBodyDto request)
     {
         try
         {

@@ -1,8 +1,8 @@
-﻿using NotificationServer.Models;
+﻿using Shared.Dtos.Emails;
 
 namespace NotificationServer.Services;
 
 public interface IMailService
 {
-    Task SendEmailAsync(EmailBody email);
+    Task SendEmailAsync(EmailBodyDto email);
 }

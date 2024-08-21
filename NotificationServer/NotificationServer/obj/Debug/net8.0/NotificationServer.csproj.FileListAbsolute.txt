@@ -70,3 +70,5 @@ C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\Notifica
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\obj\Debug\net8.0\NotificationServer.pdb
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\obj\Debug\net8.0\NotificationServer.genruntimeconfig.cache
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\obj\Debug\net8.0\ref\NotificationServer.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\Shared.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\Shared.pdb

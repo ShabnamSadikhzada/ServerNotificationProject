@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\notificationserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\notificationserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\controllers\\emailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\controllers\\emailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\configurations\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\configurations\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\templates\\mailtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\templates\\mailtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{875B0100-4CEA-48FA-BFF7-0C0BA5D0793A}|NotificationServer\\NotificationServer.csproj|solutionrelative:notificationserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "EMailsController.cs",
+              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Controllers\\EMailsController.cs",
+              "RelativeDocumentMoniker": "NotificationServer\\Controllers\\EMailsController.cs",
+              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Controllers\\EMailsController.cs",
+              "RelativeToolTip": "NotificationServer\\Controllers\\EMailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:21:21.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmailConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Configurations\\EmailConfiguration.cs",
               "RelativeDocumentMoniker": "NotificationServer\\Configurations\\EmailConfiguration.cs",
@@ -42,58 +51,31 @@
               "RelativeToolTip": "NotificationServer\\Configurations\\EmailConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:47:23.883Z"
+              "WhenOpened": "2024-08-20T09:21:16.755Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\appsettings.json",
-              "RelativeDocumentMoniker": "NotificationServer\\appsettings.json",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\appsettings.json",
-              "RelativeToolTip": "NotificationServer\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Title": "MailTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Templates\\MailTemplate.cs",
+              "RelativeDocumentMoniker": "NotificationServer\\Templates\\MailTemplate.cs",
+              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Templates\\MailTemplate.cs",
+              "RelativeToolTip": "NotificationServer\\Templates\\MailTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:39:34.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "NotificationServer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "NotificationServer\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T09:39:17.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NotificationServer.http",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\NotificationServer.http",
-              "RelativeDocumentMoniker": "NotificationServer\\NotificationServer.http",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\NotificationServer.http",
-              "RelativeToolTip": "NotificationServer\\NotificationServer.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-19T09:02:17.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Program.cs",
-              "RelativeDocumentMoniker": "NotificationServer\\Program.cs",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Program.cs",
-              "RelativeToolTip": "NotificationServer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:14:36.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MailService.cs",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Services\\MailService.cs",
-              "RelativeDocumentMoniker": "NotificationServer\\Services\\MailService.cs",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Services\\MailService.cs",
-              "RelativeToolTip": "NotificationServer\\Services\\MailService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:26:45.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T07:31:05.694Z"
             }
           ]
         }
