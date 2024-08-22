@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj": {}
+    "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj": {
+    "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj",
+        "projectUniqueName": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj",
         "projectName": "HangFireApplication",
-        "projectPath": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj",
+        "projectPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\HangFireApplication.csproj",
         "packagesPath": "C:\\Users\\shabnamjs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\HangFireApplication\\obj\\",
+        "outputPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\Shared\\Shared.csproj"
+              "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Shared.csproj"
               }
             }
           }
@@ -66,6 +66,14 @@
               "target": "Package",
               "version": "[1.8.14, )"
             },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.4, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.4, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.1, )"
@@ -73,6 +81,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Refit": {
               "target": "Package",
@@ -110,14 +122,14 @@
         }
       }
     },
-    "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\Shared\\Shared.csproj": {
+    "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\shabnamjs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shabnamjs\\source\\repos\\HangFireApplication\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

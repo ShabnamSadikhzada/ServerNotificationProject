@@ -1,4 +1,5 @@
 using Hangfire;
+using HangFireApplication.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,8 @@ builder.Services.AddHangfire(config =>
 });
 
 builder.Services.AddHangfireServer();
+
+builder.Services.ConfigureRabbitMq(builder.Configuration);
 
 var app = builder.Build();
 
