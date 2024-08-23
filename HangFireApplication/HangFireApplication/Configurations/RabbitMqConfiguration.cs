@@ -20,9 +20,9 @@ public static class RabbitMqConfiguration
                     h.Password(rabbitMqConfig.Password);
                 });
 
-                cfg.ReceiveEndpoint("job-search-queue", e =>
+                cfg.ReceiveEndpoint("jobsearch-queue", e =>
                 {
-
+                    //e.Consumer<JobSearchCoonsumer>(context);
                 });
             });
         });

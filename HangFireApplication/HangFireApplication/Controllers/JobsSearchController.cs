@@ -3,6 +3,7 @@ using HangFireApplication.Models;
 using MassTransit;
 using MassTransit.Testing;
 using Microsoft.AspNetCore.Mvc;
+using Shared.Dtos.Jobs;
 using System.Net;
 
 namespace HangFireApplication.Controllers;
@@ -24,22 +25,54 @@ public class JobsSearchController : Controller
     [HttpPost]
     public IActionResult Search([FromBody] JobSearch model)
     {
+
+
+
+
+
+
+
         if(ModelState.IsValid)
         {
             if (model.SearchNow)
             {
-                _client.Enqueue(() => SendJob(model));
+                foreach (var request in model.Companies)
+                {
+                    foreach (var keyword in model.KeyWords)
+                    {
+                        var message = new JobSearchDto
+                        {
+                            KeyWord = keyword,
+                            WebUrl = request
+                        };
+        
+                        _client.Enqueue(() => SendJob(message));
+                    }
+                }
             }
             else if(!model.SearchNow && model.ScheduleTime != null && model.ScheduleTime > DateTime.Now)
             {
-                 _client.Schedule(() => SendJob(model), model.ScheduleTime.Value);
+                foreach (var request in model.Companies)
+                {
+                    foreach (var keyword in model.KeyWords)
+                    {
+                        var message = new JobSearchDto
+                        {
+                            KeyWord = keyword,
+                            WebUrl = request
+                        };
+
+                        _client.Schedule(() => SendJob(message), model.ScheduleTime.Value);                
+                    }
+                }
             }
         }
 
         return Json(HttpStatusCode.OK);
     }
 
-    public async Task SendJob(JobSearch model)
+    [NonAction]
+    public async Task SendJob(JobSearchDto model)
     {
         await _publishEndpoint.Publish(model);
     }
