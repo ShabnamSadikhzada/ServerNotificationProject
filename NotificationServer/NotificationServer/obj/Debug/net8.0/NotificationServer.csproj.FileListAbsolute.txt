@@ -72,3 +72,7 @@ C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\Notifica
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\obj\Debug\net8.0\ref\NotificationServer.dll
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\Shared.dll
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\Shared.pdb
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\MassTransit.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\NotificationServer\NotificationServer\bin\Debug\net8.0\RabbitMQ.Client.dll

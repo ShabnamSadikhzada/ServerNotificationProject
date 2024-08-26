@@ -1,36 +1,42 @@
-﻿using Hangfire;
-using HangFireApplication.Models;
-using MassTransit;
-using MassTransit.Testing;
-using Microsoft.AspNetCore.Mvc;
-using Shared.Dtos.Jobs;
-using System.Net;
-
-namespace HangFireApplication.Controllers;
+﻿namespace HangFireApplication.Controllers;
 
 public class JobsSearchController : Controller
 {
+    #region Ctor 
     private readonly IBackgroundJobClient _client;
     private readonly IPublishEndpoint _publishEndpoint;
-    public JobsSearchController(IBackgroundJobClient client, IPublishEndpoint publishEndpoint)
+    private readonly IRedisService<JobSearch> _redisService;
+    public JobsSearchController(
+        IBackgroundJobClient client,
+        IPublishEndpoint publishEndpoint,
+        IRedisService<JobSearch> redisService)
     {
         _client = client;
+        _redisService = redisService;
         _publishEndpoint = publishEndpoint;
-    }
+    } 
+    #endregion
 
     public IActionResult Index() => View();
 
-    public IActionResult Search() => View();
+    public IActionResult Search() 
+    {
+        var data = _redisService.Get(Consts.RedisConsts.JOBSEARCH_KEY);
+
+
+        return Json(
+            new
+            {
+                Status = HttpStatusCode.OK,
+                Data = data,
+                Message = "islem basarili bir sekilde gerceklesti"
+
+            });
+    }
 
     [HttpPost]
     public IActionResult Search([FromBody] JobSearch model)
     {
-
-
-
-
-
-
 
         if(ModelState.IsValid)
         {
@@ -68,7 +74,17 @@ public class JobsSearchController : Controller
             }
         }
 
-        return Json(HttpStatusCode.OK);
+        _redisService.Sets(Consts.RedisConsts.JOBSEARCH_KEY, model);
+
+
+        return Json(
+            new
+            {
+                Status = HttpStatusCode.OK,
+                Data = model,
+                Message = "islem basarili bir sekilde gerceklesti"
+
+            });
     }
 
     [NonAction]

@@ -1,5 +1,7 @@
 ﻿using HangFireApplication.MqServices;
 using MassTransit;
+using Shared.Configurations;
+using Shared.Constants;
 
 namespace HangFireApplication.Configurations;
 
@@ -7,35 +9,39 @@ public static class RabbitMqConfiguration
 {
     public static void ConfigureRabbitMq(this IServiceCollection services, IConfiguration configuration)
     {
-        var rabbitMqConfig = configuration.GetSection("RabbitMq").Get<RabbitMqConfig>();
+        var rabbitMqConfig = configuration
+            .GetSection("RabbitMq")
+            .Get<RabbitMqConfig>();
+
         services.AddSingleton(rabbitMqConfig);
 
-        services.AddMassTransit(config =>
+        services.AddMassTransit(x =>
         {
-            config.UsingRabbitMq((context, cfg) =>
+            x.UsingRabbitMq((context, cfg) =>
             {
-                cfg.Host(rabbitMqConfig.Host, h =>
+                cfg.Host(rabbitMqConfig.Host, u =>
                 {
-                    h.Username(rabbitMqConfig.Username);
-                    h.Password(rabbitMqConfig.Password);
+                    u.Username(rabbitMqConfig.Username);
+                    u.Password(rabbitMqConfig.Password);
                 });
 
-                cfg.ReceiveEndpoint("jobsearch-queue", e =>
+                cfg.ReceiveEndpoint(Consts.RabbitMqConsts.HELLOJOB_QUEUE, e =>
                 {
-                    //e.Consumer<JobSearchCoonsumer>(context);
+                    //e.Consumer<JobSearchConsumer>(context);
+                });
+
+                cfg.ReceiveEndpoint(Consts.RabbitMqConsts.JOBSEARCH_QUEUE, e =>
+                {
+                    //e.Consumer<JobSearchConsumer>(context);
+                });
+                cfg.ReceiveEndpoint(Consts.RabbitMqConsts.BOSS_AZ_QUEUE, e =>
+                {
+                    //e.Consumer<JobSearchConsumer>(context);
                 });
             });
         });
+
         services.AddHostedService<RabbitMqHostService>();
     }
 }
 
-public class RabbitMqConfig
-{
-    public string Host { get; set; }
-    public int Port { get; set; } = 5672;
-    public string Username { get; set; }
-    public string Password { get; set; }
-    public string VirtualHost { get; set; }
-
-}

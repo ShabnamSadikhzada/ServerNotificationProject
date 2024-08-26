@@ -164,3 +164,5 @@ C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\HangFir
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\HangFireApplication\bin\Debug\net8.0\MassTransit.Abstractions.dll
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\HangFireApplication\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\HangFireApplication\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\HangFireApplication\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\HangFireApplication\bin\Debug\net8.0\StackExchange.Redis.dll

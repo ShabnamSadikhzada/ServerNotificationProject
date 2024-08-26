@@ -22,3 +22,4 @@ C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\Shared\
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\Shared\obj\Debug\net8.0\Shared.pdb
 C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\Shared\obj\Debug\net8.0\ref\Shared.dll
+C:\Users\shabnamjs\Desktop\ServerNotificationProject\HangFireApplication\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache

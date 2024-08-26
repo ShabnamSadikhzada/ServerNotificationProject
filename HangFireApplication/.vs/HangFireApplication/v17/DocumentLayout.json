@@ -3,12 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F4A9BC0-F78C-4BFE-B294-5D995C745910}|HangFireApplication\\HangFireApplication.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\hangfireapplication\\hangfireapplication\\app.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{1F4A9BC0-F78C-4BFE-B294-5D995C745910}|HangFireApplication\\HangFireApplication.csproj|solutionrelative:hangfireapplication\\app.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{6A82E681-B11D-431D-9C5D-CC42DFFAEBC5}|..\\NotificationServer\\NotificationServer\\NotificationServer.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\notificationserver\\notificationserver\\configurations\\rabbitmqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F4A9BC0-F78C-4BFE-B294-5D995C745910}|HangFireApplication\\HangFireApplication.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\hangfireapplication\\hangfireapplication\\controllers\\jobssearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F4A9BC0-F78C-4BFE-B294-5D995C745910}|HangFireApplication\\HangFireApplication.csproj|solutionrelative:hangfireapplication\\controllers\\jobssearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57236CCD-F15E-456A-B5F2-5CF28B5E91B5}|Shared\\Shared.csproj|c:\\users\\shabnamjs\\desktop\\servernotificationproject\\hangfireapplication\\shared\\constants\\consts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57236CCD-F15E-456A-B5F2-5CF28B5E91B5}|Shared\\Shared.csproj|solutionrelative:shared\\constants\\consts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +22,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "app.http",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\app.http",
-              "RelativeDocumentMoniker": "HangFireApplication\\app.http",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\app.http",
-              "RelativeToolTip": "HangFireApplication\\app.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-23T06:33:33.398Z",
+              "Title": "RabbitMqConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Configurations\\RabbitMqConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\NotificationServer\\NotificationServer\\Configurations\\RabbitMqConfiguration.cs",
+              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\NotificationServer\\NotificationServer\\Configurations\\RabbitMqConfiguration.cs",
+              "RelativeToolTip": "..\\NotificationServer\\NotificationServer\\Configurations\\RabbitMqConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:43:24.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JobsSearchController.cs",
-              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\Controllers\\JobsSearchController.cs",
-              "RelativeDocumentMoniker": "HangFireApplication\\Controllers\\JobsSearchController.cs",
-              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\HangFireApplication\\Controllers\\JobsSearchController.cs",
-              "RelativeToolTip": "HangFireApplication\\Controllers\\JobsSearchController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwDAAAAA2AAAA",
+              "Title": "Consts.cs",
+              "DocumentMoniker": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Constants\\Consts.cs",
+              "RelativeDocumentMoniker": "Shared\\Constants\\Consts.cs",
+              "ToolTip": "C:\\Users\\shabnamjs\\Desktop\\ServerNotificationProject\\HangFireApplication\\Shared\\Constants\\Consts.cs",
+              "RelativeToolTip": "Shared\\Constants\\Consts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:17:52.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T09:42:33.19Z"
             }
           ]
         }

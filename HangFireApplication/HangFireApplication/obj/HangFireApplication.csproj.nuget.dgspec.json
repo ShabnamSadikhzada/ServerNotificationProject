@@ -68,11 +68,11 @@
             },
             "MassTransit": {
               "target": "Package",
-              "version": "[8.2.4, )"
+              "version": "[8.2.5, )"
             },
             "MassTransit.RabbitMQ": {
               "target": "Package",
-              "version": "[8.2.4, )"
+              "version": "[8.2.5, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -97,6 +97,10 @@
             "Scrutor.AspNetCore": {
               "target": "Package",
               "version": "[3.3.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
             }
           },
           "imports": [
@@ -167,6 +171,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

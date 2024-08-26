@@ -1,3 +1,4 @@
+using NotificationServer.Configurations;
 using NotificationServer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ builder.Services.AddSingleton<IMailService, MailService>();
 
 builder.Services.AddSwaggerGen();
 
+builder.Services.ConfigureRabbitMq(builder.Configuration);
 
 var app = builder.Build();
 

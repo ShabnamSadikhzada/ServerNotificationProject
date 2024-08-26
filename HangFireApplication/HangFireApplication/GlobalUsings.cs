@@ -1,1 +1,9 @@
 ﻿global using Shared.Dtos.Emails;
+global using Hangfire;
+global using HangFireApplication.Models;
+global using HangFireApplication.Services;
+global using MassTransit;
+global using Microsoft.AspNetCore.Mvc;
+global using Shared.Dtos.Jobs;
+global using System.Net;
+global using Shared.Constants;

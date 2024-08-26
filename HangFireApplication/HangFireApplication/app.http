@@ -1,8 +1,7 @@
 ﻿POST http://localhost:5193/JobsSearch/Search
 Content-Type: application/json
-
 {
-  "KeyWords": ["javascript", "react"],
+  "KeyWords": ["javascript"],
   "Companies": ["https://www.jobsearch.az/vacancies"],
   "SearchNow": true,
   "ScheduleTime": null

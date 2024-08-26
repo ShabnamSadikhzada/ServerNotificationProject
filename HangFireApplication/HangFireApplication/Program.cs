@@ -14,6 +14,7 @@ builder.Services.AddHangfire(config =>
 builder.Services.AddHangfireServer();
 
 builder.Services.ConfigureRabbitMq(builder.Configuration);
+builder.Services.ConfigureRedis(builder.Configuration);
 
 var app = builder.Build();
 
